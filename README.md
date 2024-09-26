@@ -5,4 +5,20 @@ function test(name){
   return test;
 }
 
-console.log("Oscar")
+console.log("Oscar");
+
+ function countVowels(word) {
+   // Define a string of vowels
+   let vowels = "aeiouAEIOU";
+   let count = 0;
+ 
+   // Loop through each character in the word
+   for (let i of word) {
+       // If the character is in the vowels string, increment the count
+       if (vowels.includes(i)) {
+           count++;
+       }
+   } 
+   return count;
+}
+
