@@ -1,5 +1,1 @@
-# javascript
-# javascript
-# javascript
-# javascript
-# javascript
+# javascript code
